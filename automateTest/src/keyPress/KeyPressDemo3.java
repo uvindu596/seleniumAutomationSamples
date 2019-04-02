@@ -38,7 +38,7 @@ public class KeyPressDemo3 {
 
 	@After
 	public void tearDown() throws Exception {
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		driver.quit();
 	}
 
