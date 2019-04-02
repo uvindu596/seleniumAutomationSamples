@@ -7,16 +7,15 @@ import java.util.concurrent.TimeUnit;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
-import org.openqa.selenium.By;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.interactions.Actions;
 
-public class keyPressDemo2 {
-
-	WebDriver driver;
-	String baseUrl;
-
+public class KeyPressDemo3 {
+    WebDriver driver;
+    String baseUrl;
+	
 	@Before
 	public void setUp() throws Exception {
 		System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
@@ -26,26 +25,23 @@ public class keyPressDemo2 {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 	}
-
+	
+	
 	@Test
 	public void test() throws InterruptedException {
 		driver.get(baseUrl);
-		//driver.findElement(By.id("openwindow")).sendKeys(Keys.CONTROL + "a");
 		Thread.sleep(2000);
-	   //driver.findElement(By.id("openwindow")).sendKeys(Keys.chord(Keys.CONTROL,"a"));
-	  //Thread.sleep(2000);
-		String selectAll = Keys.chord(Keys.CONTROL,"a");
-		driver.findElement(By.id("openwindow")).sendKeys(selectAll);
-		Thread.sleep(3000);
 		
-		
+		Actions action = new Actions(driver);
+		action.keyDown(Keys.CONTROL).sendKeys("a").keyUp(Keys.CONTROL).perform();
 	}
-	
+
 	@After
 	public void tearDown() throws Exception {
-      Thread.sleep(2000);
-      driver.quit();
-		
+		Thread.sleep(2000);
+		driver.quit();
 	}
+
+	
 
 }
