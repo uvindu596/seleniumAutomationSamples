@@ -17,7 +17,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class noSuchElementDemo {
 
 	  WebDriver driver;
-	    String baseUrl;
+	  String baseUrl;
 		
 		@Before
 		public void setUp() throws Exception {
