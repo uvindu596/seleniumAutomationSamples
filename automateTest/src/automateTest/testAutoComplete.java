@@ -49,6 +49,7 @@ public class testAutoComplete {
 		for(WebElement result: results) {
 			if (result.getText().equals(searchingText)) {
 				result.click();
+				break;
 	     	}
 		}		
 		
