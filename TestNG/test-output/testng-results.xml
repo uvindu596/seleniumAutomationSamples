@@ -2,30 +2,32 @@
 <testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-05T11:05:58Z" name="Preserve  enable TestSuite" finished-at="2019-04-05T11:05:58Z" duration-ms="23">
+  <suite started-at="2019-04-05T11:43:34Z" name="Parallrl TestSuite" finished-at="2019-04-05T11:43:46Z" duration-ms="12050">
     <groups>
     </groups>
-    <test started-at="2019-04-05T11:05:58Z" name="Test 1" finished-at="2019-04-05T11:05:58Z" duration-ms="23">
-      <class name="testClasses.preserve2">
-        <test-method signature="testMethod1()[pri:0, instance:testClasses.preserve2@4b2bac3f]" started-at="2019-04-05T11:05:58Z" name="testMethod1" finished-at="2019-04-05T11:05:58Z" duration-ms="16" status="PASS">
+    <test started-at="2019-04-05T11:43:34Z" name="Test 1" finished-at="2019-04-05T11:43:46Z" duration-ms="12050">
+      <class name="testClasses.TestNG_TestParallel1">
+        <test-method signature="testMethod1()[pri:0, instance:testClasses.TestNG_TestParallel1@4d1c00d0]" started-at="2019-04-05T11:43:34Z" name="testMethod1" finished-at="2019-04-05T11:43:40Z" duration-ms="6009" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method signature="testMethod2()[pri:0, instance:testClasses.preserve2@4b2bac3f]" started-at="2019-04-05T11:05:58Z" name="testMethod2" finished-at="2019-04-05T11:05:58Z" duration-ms="0" status="PASS">
+        <test-method signature="testMethod2()[pri:0, instance:testClasses.TestNG_TestParallel1@4d1c00d0]" started-at="2019-04-05T11:43:40Z" name="testMethod2" finished-at="2019-04-05T11:43:46Z" duration-ms="6002" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod2 -->
-      </class> <!-- testClasses.preserve2 -->
-      <class name="testClasses.preserve1">
-        <test-method signature="testMethod2()[pri:0, instance:testClasses.preserve1@302552ec]" started-at="2019-04-05T11:05:58Z" name="testMethod2" finished-at="2019-04-05T11:05:58Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method signature="testMethod1()[pri:0, instance:testClasses.preserve1@302552ec]" started-at="2019-04-05T11:05:58Z" name="testMethod1" finished-at="2019-04-05T11:05:58Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod1 -->
-      </class> <!-- testClasses.preserve1 -->
+      </class> <!-- testClasses.TestNG_TestParallel1 -->
     </test> <!-- Test 1 -->
-  </suite> <!-- Preserve  enable TestSuite -->
+    <test started-at="2019-04-05T11:43:34Z" name="Test 2" finished-at="2019-04-05T11:43:46Z" duration-ms="12050">
+      <class name="testClasses.TestNG_TestParallel2">
+        <test-method signature="testMethod1()[pri:0, instance:testClasses.TestNG_TestParallel2@2df3b89c]" started-at="2019-04-05T11:43:34Z" name="testMethod1" finished-at="2019-04-05T11:43:40Z" duration-ms="6009" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod1 -->
+        <test-method signature="testMethod2()[pri:0, instance:testClasses.TestNG_TestParallel2@2df3b89c]" started-at="2019-04-05T11:43:40Z" name="testMethod2" finished-at="2019-04-05T11:43:46Z" duration-ms="6003" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
+      </class> <!-- testClasses.TestNG_TestParallel2 -->
+    </test> <!-- Test 2 -->
+  </suite> <!-- Parallrl TestSuite -->
 </testng-results>
