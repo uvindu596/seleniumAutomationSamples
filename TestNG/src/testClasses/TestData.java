@@ -9,7 +9,8 @@ public class TestData {
 
 		return new Object[][] {
 
-				{ "bmw", "m3" }, { "audi", "a6" }, { "benz", "c300" } };
+				{ "bmw", "m3" }, { "audi", "a6" }, { "benz", "c300" }
+		};
 	}
 
 }
