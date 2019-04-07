@@ -3,13 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.TestNG_EnableTimeout">
+      <class name="testClasses.ITestResultDemo">
         <methods>
-          <include name="testMethod2"/>
-          <include name="cleanUp"/>
-          <include name="setUp"/>
+          <include name="testMethod1"/>
+          <include name="afterMethod"/>
         </methods>
-      </class> <!-- testClasses.TestNG_EnableTimeout -->
+      </class> <!-- testClasses.ITestResultDemo -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
