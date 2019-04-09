@@ -2,12 +2,12 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2019-04-07T03:25:47Z" name="Default suite" finished-at="2019-04-07T03:25:47Z" duration-ms="47">
+  <suite started-at="2019-04-09T02:34:11Z" name="Default suite" finished-at="2019-04-09T02:34:11Z" duration-ms="32">
     <groups>
     </groups>
-    <test started-at="2019-04-07T03:25:47Z" name="Default test" finished-at="2019-04-07T03:25:47Z" duration-ms="47">
+    <test started-at="2019-04-09T02:34:11Z" name="Default test" finished-at="2019-04-09T02:34:11Z" duration-ms="32">
       <class name="testClasses.ITestResultDemo">
-        <test-method signature="testMethod1()[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-07T03:25:47Z" name="testMethod1" finished-at="2019-04-07T03:25:47Z" duration-ms="11" status="FAIL">
+        <test-method signature="testMethod1()[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-09T02:34:11Z" name="testMethod1" finished-at="2019-04-09T02:34:11Z" duration-ms="16" status="FAIL">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [true] but found [false]]]>
@@ -50,7 +50,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testMethod1 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-07T03:25:47Z" name="afterMethod" finished-at="2019-04-07T03:25:47Z" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-09T02:34:11Z" name="afterMethod" finished-at="2019-04-09T02:34:11Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -61,11 +61,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
-        <test-method signature="testMethod2()[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-07T03:25:47Z" name="testMethod2" finished-at="2019-04-07T03:25:47Z" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testMethod2 -->
-        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-07T03:25:47Z" name="afterMethod" finished-at="2019-04-07T03:25:47Z" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="afterMethod(org.testng.ITestResult)[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-09T02:34:11Z" name="afterMethod" finished-at="2019-04-09T02:34:11Z" duration-ms="0" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -76,6 +72,10 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- afterMethod -->
+        <test-method signature="testMethod2()[pri:0, instance:testClasses.ITestResultDemo@279fedbd]" started-at="2019-04-09T02:34:11Z" name="testMethod2" finished-at="2019-04-09T02:34:11Z" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testMethod2 -->
       </class> <!-- testClasses.ITestResultDemo -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
