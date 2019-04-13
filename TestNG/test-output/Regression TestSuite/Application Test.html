@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Application Test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>4/0/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>1/1/1</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Apr 05 10:22:07 IST 2019</td>
+<td>Started on:</td><td>Sat Apr 13 15:55:04 IST 2019</td>
 </tr>
-<tr><td>Total time:</td><td>0 seconds (31 ms)</td>
+<tr><td>Total time:</td><td>0 seconds (30 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,6 +67,60 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-failed'>
+<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='testClasses.ReportsAndLogs.testMethod2()'><b>testMethod2</b><br>Test class: testClasses.ReportsAndLogs<br/>
+<a href="#Output-1607792885" onClick='toggleBox("Output-1607792885", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1607792885" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1607792885">
+TestNG_ReportsAndLogs -> testMethod2<br/>
+</div>
+</td>
+<td><div><pre>java.lang.AssertionError: expected [true] but found [false]
+	at testClasses.ReportsAndLogs.testMethod2(ReportsAndLogs.java:42)
+... Removed 29 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace1607792885", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace1607792885'><pre>java.lang.AssertionError: expected [true] but found [false]
+	at org.testng.Assert.fail(Assert.java:96)
+	at org.testng.Assert.failNotEquals(Assert.java:776)
+	at org.testng.Assert.assertTrue(Assert.java:44)
+	at org.testng.Assert.assertTrue(Assert.java:54)
+	at testClasses.ReportsAndLogs.testMethod2(ReportsAndLogs.java:42)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:580)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:716)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:988)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
+<td>0</td>
+<td>testClasses.ReportsAndLogs@61322f9d</td></tr>
+</table><p>
 <table width='100%' border='1' class='invocation-passed'>
 <tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
@@ -75,25 +129,51 @@ function toggleAllBoxes() {
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='regressionsuite.TestNG_TestClass1.testMethod1()'><b>testMethod1</b><br>Test class: regressionsuite.TestNG_TestClass1</td>
+<td title='testClasses.ReportsAndLogs.testMethod1()'><b>testMethod1</b><br>Test class: testClasses.ReportsAndLogs<br/>
+<a href="#Output-718068661" onClick='toggleBox("Output-718068661", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-718068661" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-718068661">
+TestNG_ReportsAndLogs -> testMethod1<br/>
+</div>
+</td>
 <td></td>
 <td>0</td>
-<td>regressionsuite.TestNG_TestClass1@2002fc1d</td></tr>
+<td>testClasses.ReportsAndLogs@61322f9d</td></tr>
+</table><p>
+<table width='100%' border='1' class='invocation-skipped'>
+<tr><td colspan='4' align='center'><b>SKIPPED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
 <tr>
-<td title='regressionsuite.TestNG_TestClass2.testMethod1()'><b>testMethod1</b><br>Test class: regressionsuite.TestNG_TestClass2</td>
-<td></td>
+<td title='testClasses.ReportsAndLogs.testMethod3()'><b>testMethod3</b><br>Test class: testClasses.ReportsAndLogs</td>
+<td><div><pre>java.lang.Throwable: Method ReportsAndLogs.testMethod3()[pri:0, instance:testClasses.ReportsAndLogs@61322f9d] depends on not successfully finished methods
+... Removed 18 stack frames</pre></div><a href='#' onClick='toggleBox("stack-trace888473870", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
+<div class='stack-trace' id='stack-trace888473870'><pre>java.lang.Throwable: Method ReportsAndLogs.testMethod3()[pri:0, instance:testClasses.ReportsAndLogs@61322f9d] depends on not successfully finished methods
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:887)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:648)
+	at org.testng.TestRunner.run(TestRunner.java:505)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:364)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+	at org.testng.TestNG.runSuites(TestNG.java:1049)
+	at org.testng.TestNG.run(TestNG.java:1017)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:114)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+</pre></div></td>
 <td>0</td>
-<td>regressionsuite.TestNG_TestClass2@69453e37</td></tr>
-<tr>
-<td title='regressionsuite.TestNG_TestClass1.testMethod2()'><b>testMethod2</b><br>Test class: regressionsuite.TestNG_TestClass1</td>
-<td></td>
-<td>0</td>
-<td>regressionsuite.TestNG_TestClass1@2002fc1d</td></tr>
-<tr>
-<td title='regressionsuite.TestNG_TestClass2.testMethod2()'><b>testMethod2</b><br>Test class: regressionsuite.TestNG_TestClass2</td>
-<td></td>
-<td>0</td>
-<td>regressionsuite.TestNG_TestClass2@69453e37</td></tr>
+<td>null</td></tr>
 </table><p>
 </body>
 </html>
