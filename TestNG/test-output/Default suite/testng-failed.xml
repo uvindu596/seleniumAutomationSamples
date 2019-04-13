@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testClasses.ITestResultDemo">
+      <class name="extenreports.LoginTestWithScreenshot">
         <methods>
-          <include name="testMethod1"/>
-          <include name="afterMethod"/>
+          <include name="beforeClass"/>
+          <include name="tearDown"/>
+          <include name="test1_validLoginTest"/>
         </methods>
-      </class> <!-- testClasses.ITestResultDemo -->
+      </class> <!-- extenreports.LoginTestWithScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -16,5 +16,9 @@
 	<classpathentry kind="lib" path="selenium/okio-1.14.0.jar"/>
 	<classpathentry kind="lib" path="testNGfiles/testng-6.11-sources.jar"/>
 	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="lib" path="reporter/extentreports-2.41.2.jar"/>
+	<classpathentry kind="lib" path="reporter/freemarker-2.3.28.jar"/>
+	<classpathentry kind="lib" path="reporter/jsoup-1.11.3.jar"/>
+	<classpathentry kind="lib" path="reporter/sqlite-jdbc-3.27.2.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
