@@ -20,5 +20,4 @@ public class CustomListerner1 implements IInvokedMethodListener{
 		System.out.println("AfterInvocation: "+testResult.getTestClass().getName() + " => "+method.getTestMethod().getMethodName());
 	}
 	
-
 }

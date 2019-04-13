@@ -2,15 +2,15 @@ package testClasses;
 
 import org.testng.annotations.Test;
 
-//import listenersPackage.CustomListerner1;
+//import listenersPackage.CustomListerner2;
 
 import org.testng.annotations.BeforeClass;
 //import org.testng.annotations.Listeners;
 import org.testng.Assert;
 import org.testng.annotations.AfterClass;
 
-//@Listeners(CustomListerner1.class)
-public class TestNG_ListenersTest1  {
+//@Listeners(CustomListerner2.class)
+public class TestNG_ListenersTest2  {
  
   @BeforeClass
   public void setUp() {

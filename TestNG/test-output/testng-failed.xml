@@ -1,14 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite name="Failed suite [Listeners TestSuite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="listenersPackage.CustomListeners"/>
+  </listeners>
+  <test thread-count="5" name="Application Test 1(failed)">
     <classes>
-      <class name="testClasses.ITestResultDemo">
+      <class name="testClasses.TestNG_ListenersTest1">
         <methods>
-          <include name="testMethod1"/>
-          <include name="afterMethod"/>
+          <include name="testMethod2"/>
+          <include name="setUp"/>
+          <include name="cleanUp"/>
         </methods>
-      </class> <!-- testClasses.ITestResultDemo -->
+      </class> <!-- testClasses.TestNG_ListenersTest1 -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Application Test 1(failed) -->
+  <test thread-count="5" name="Application Test 2(failed)">
+    <classes>
+      <class name="testClasses.TestNG_ListenersTest2">
+        <methods>
+          <include name="testMethod2"/>
+          <include name="cleanUp"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- testClasses.TestNG_ListenersTest2 -->
+    </classes>
+  </test> <!-- Application Test 2(failed) -->
+</suite> <!-- Failed suite [Listeners TestSuite] -->
