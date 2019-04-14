@@ -13,11 +13,27 @@
 	<classpathentry kind="lib" path="selenium/guava-25.0-jre.jar"/>
 	<classpathentry kind="lib" path="selenium/okhttp-3.11.0.jar"/>
 	<classpathentry kind="lib" path="selenium/okio-1.14.0.jar"/>
-	<classpathentry kind="lib" path="D:/soft/selenium automations/junit/hamcrest-core-1.3.jar"/>
-	<classpathentry kind="lib" path="D:/soft/selenium automations/junit/junit-4.12.jar"/>
-	<classpathentry kind="lib" path="D:/soft/selenium automations/apache commons IO/commons-io-2.5.jar"/>
 	<classpathentry kind="lib" path="Junit/hamcrest-core-1.3.jar"/>
 	<classpathentry kind="lib" path="Junit/junit-4.12.jar"/>
 	<classpathentry kind="lib" path="apache commons IO/commons-io-2.5.jar"/>
+	<classpathentry kind="lib" path="apachePOI/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="apachePOI/commons-codec-1.12.jar"/>
+	<classpathentry kind="lib" path="apachePOI/commons-collections4-4.3.jar"/>
+	<classpathentry kind="lib" path="apachePOI/commons-compress-1.18.jar"/>
+	<classpathentry kind="lib" path="apachePOI/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="apachePOI/commons-math3-3.6.1.jar"/>
+	<classpathentry kind="lib" path="apachePOI/curvesapi-1.06.jar"/>
+	<classpathentry kind="lib" path="apachePOI/jaxb-api-2.3.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/jaxb-core-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="apachePOI/jaxb-impl-2.3.0.1.jar"/>
+	<classpathentry kind="lib" path="apachePOI/junit-4.12.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-examples-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-excelant-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-ooxml-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-ooxml-schemas-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/poi-scratchpad-4.1.0.jar"/>
+	<classpathentry kind="lib" path="apachePOI/xmlbeans-3.1.0.jar"/>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
