@@ -27,6 +27,8 @@ public class ProfilesDemo {
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 		driver.manage().window().maximize();
 		driver.get(baseURL);
+		
+		// C:\Users\ASUS\AppData\Local\Google\Chrome\User Data\Default\Extensions\aapocclcgogkmnckokdopfmhonfmgoek\0.10_0.crx
 	}
 
 }
