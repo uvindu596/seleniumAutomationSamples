@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="datadriven.UsingExcel_SingleDataSet">
+      <class name="fileUpload.FileUploadWindowsAutoIT">
         <methods>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="testUsingExcel"/>
+          <include name="fileUpload"/>
+          <include name="afterClass"/>
+          <include name="beforeClass"/>
         </methods>
-      </class> <!-- datadriven.UsingExcel_SingleDataSet -->
+      </class> <!-- fileUpload.FileUploadWindowsAutoIT -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
