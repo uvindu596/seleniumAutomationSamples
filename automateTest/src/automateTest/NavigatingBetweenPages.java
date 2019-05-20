@@ -17,7 +17,7 @@ public class NavigatingBetweenPages {
 	
 	@Before
 	public void setUp() throws Exception {
-		System.setProperty("webdriver.chrome.driver","drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","chromeDriver/chromedriver.exe");
 		driver = new ChromeDriver();
 		baseURL = "https://learn.letskodeit.com/";
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);

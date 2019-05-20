@@ -1,15 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Extent TestSuite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="FireFox Test(failed)">
+<suite thread-count="2" parallel="tests" name="Failed suite [Parallel TestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="2" parallel="tests" name="Chrome Test(failed)">
+    <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="extenreports.Test1">
+      <class name="loginInParallel.TestNG_seleniumParamtersParallelExample">
         <methods>
-          <include name="test1_validLoginTest"/>
-          <include name="beforeClass"/>
+          <include name="setUp"/>
           <include name="afterClass"/>
+          <include name="testLogin"/>
         </methods>
-      </class> <!-- extenreports.Test1 -->
+      </class> <!-- loginInParallel.TestNG_seleniumParamtersParallelExample -->
     </classes>
-  </test> <!-- FireFox Test(failed) -->
-</suite> <!-- Failed suite [Extent TestSuite] -->
+  </test> <!-- Chrome Test(failed) -->
+</suite> <!-- Failed suite [Parallel TestSuite] -->
